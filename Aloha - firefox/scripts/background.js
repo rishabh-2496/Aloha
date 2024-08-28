@@ -2,7 +2,7 @@
 
 console.log('Executing background Script');
 function getImage(){
-  const authorization_key = "e181a6095c2333ed40d114d5619b4aafe381a09a81339403b26e474e4554d2a2";
+  const authorization_key = "";
   const headersObject = {
     method:'get',
     headers:{
@@ -22,7 +22,7 @@ function getImage(){
 
 
 function getQuote(){
-  const authorization_key = 'hwYTYNmfscmsh7Bt38I7MZdUkfSVp1HUBOejsnw7KIdZpylEor';
+  const authorization_key = '';
   const headersObject = {
     method: 'get',
     headers: {
